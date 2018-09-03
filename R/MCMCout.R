@@ -24,7 +24,7 @@
 #' update(mod1, n.iter=5e3)
 #' mod1_out <- coda.samples(mod1, c(<variables out>, n.iter=1e5, thin=100))
 #' MCMCout(mod1_out)
-MCMCout <- function(mcmc.list){ 
+MCMCout <- function(mcmc_list){ 
     
     #get dims and names from mcmc.list object
     
